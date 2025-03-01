@@ -1,0 +1,35 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/contacts-backend
+    username: postgres
+    password: kheya
+
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect  # ? Fixed dialect
+        format_sql: true
+
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 1000MB
+      max-request-size: 1000MB
+
+  mvc:
+    async:
+      request-timeout: 3600000
+
+  web:
+    resources:
+      add-mappings: false  # ? Fix for "throw-exception-if-no-handler-found"
+
+server:
+  port: 8080
+  error:
+    include-stacktrace: never  # ? Better way to handle errors in production
