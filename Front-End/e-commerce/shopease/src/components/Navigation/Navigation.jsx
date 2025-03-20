@@ -2,7 +2,8 @@ import React from 'react'
 import Wishlist from '../common/Wishlist'
 import AccountIcon from '../common/AccountIcon'
 import CartIcon from '../common/CartIcon'
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom';
+import './Navigation.css'
 
 const Navigation = ({variant="default"}) => {
   return (

@@ -262,7 +262,7 @@
     {
       "id": 1,
       "title": "Black Sweatshirt",
-      "description": "A comfortable black sweatshirt for women",
+      "description": "100% Bio-washed Cotton – makes the fabric extra soft & silky. Flexible ribbed crew neck. Precisely stitched with no pilling & no fading. Provide  all-time comfort. Anytime, anywhere. Infinite range of matte-finish HD prints.",
       "category_id": 2,
       "type_id": 10,
       "brand": "Nike",
@@ -271,7 +271,7 @@
       "color": ["Black","Blue"],
       "discount": 20,
       "thumbnail": "../../public/ProductImages/Black-SweatShirt.png",
-      "images": ["../../public/ProductImages/Black-SweatShirt.png", "../../public/ProductImages/Black-SweatShirt.png","../../public/ProductImages/Black-SweatShirt.png"],
+      "images": ["../../public/ProductImages/other-black-sweater.jpg", "../../public/ProductImages/Black-SweatShirt.png","../../public/ProductImages/Black-SweatShirt.png"],
       "rating": 4.5
     },
     {
